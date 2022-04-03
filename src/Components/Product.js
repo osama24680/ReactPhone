@@ -82,7 +82,7 @@ export default class Product extends Component {
         return (
             <ProductConsumer>
                 {value => {
-                    let { title, img, price, company, info, inCart, count, total, id } = this.props.product
+                    let { title, img, price, inCart, id } = this.props.product
                     return (
                         <Wrapper className="col-9  col-md-6 col-lg-3 ">
                             <Card >
